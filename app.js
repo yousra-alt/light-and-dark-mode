@@ -9,18 +9,5 @@ function initApp() {
 
 // modeSelected called when #select-color-mode changes value (the user select color mode)
 function modeSelected() {
-    const selectedColorMode = this.value;
-    console.log(selectedColorMode);
-    changeMode(selectedColorMode);
-}
-
-// adds a css class to body based on choosen mode
-function changeMode(mode) {
-    if (mode === "dark") {
-        console.log("Dark Mode");
-        document.body.classList.add("dark-mode");
-    } else {
-        console.log("Might be light mode");
-        document.body.classList.remove("dark-mode");
-    }
+    console.log("New color mode selected");
 }
