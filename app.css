@@ -3,3 +3,18 @@ body {
     background-color: #f2f2f2;
     color: #333333;
 }
+
+body.dark-mode {
+    background-color: #333333;
+    color: #f1f1f1;
+}
+
+body.pink-mode {
+    background-color: palevioletred;
+    color:#f1f1f1
+}
+
+body.violet-mode {
+background-color:rgb(122, 48, 122);
+color: black;
+}
